@@ -1,11 +1,10 @@
 ---
-title: "portfolio"
+title: Welcome
+format: html
 ---
 
-This is a Quarto website.
+## Hey! I’m Nor Hendra.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+I’m a Master of IT in Business candidate at Singapore Management University, specializing in Data Science & Analytics. I work in the digital asset space, and here you’ll find highlights of what I’ve learned along the way in school.
 
-```{r}
-1 + 1
-```
+Feel free to connect on [LinkedIn](https://linkedin.com/in/norhendra) or hit the Contact button below.

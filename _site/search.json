@@ -7,10 +7,31 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
+    "objectID": "contact.html",
+    "href": "contact.html",
+    "title": "contact",
+    "section": "",
+    "text": "Fill out the form below and I’ll get back to you as soon as I can.\n\n\n\n\n\nDon’t fill this out if you’re human: \n\n\nYour Name  \n\n\nYour Email  \n\n\nMessage\n\n\n\n\n\nSend Message"
+  },
+  {
+    "objectID": "contact.html#get-in-touch",
+    "href": "contact.html#get-in-touch",
+    "title": "contact",
+    "section": "",
+    "text": "Fill out the form below and I’ll get back to you as soon as I can.\n\n\n\n\n\nDon’t fill this out if you’re human: \n\n\nYour Name  \n\n\nYour Email  \n\n\nMessage\n\n\n\n\n\nSend Message"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "portfolio",
+    "title": "Welcome",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "I’m a Master of IT in Business candidate at Singapore Management University, specializing in Data Science & Analytics. I work in the digital asset space, and here you’ll find highlights of what I’ve learned along the way in school.\nFeel free to connect on LinkedIn or hit the Contact button below."
+  },
+  {
+    "objectID": "index.html#hey-im-nor-hendra.",
+    "href": "index.html#hey-im-nor-hendra.",
+    "title": "Welcome",
+    "section": "",
+    "text": "I’m a Master of IT in Business candidate at Singapore Management University, specializing in Data Science & Analytics. I work in the digital asset space, and here you’ll find highlights of what I’ve learned along the way in school.\nFeel free to connect on LinkedIn or hit the Contact button below."
   }
 ]

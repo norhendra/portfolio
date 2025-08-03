@@ -1,19 +1,40 @@
 project:
   type: website
+  output-dir: _site
+  resources:
+    - images/hendralogo.png
 
 website:
-  title: "portfolio"
+  title: "Nor Hendra"
   navbar:
+    background: light
+    title: false
+    logo: images/hendralogo.png
+    logo-alt: "Hendra Logo"
+    logo-href: index.html
+    right:
+      - text: ""
+        href: https://github.com/norhendra
+        icon: github           # ← bootstrap icon name
+        target: "_blank"
+      - text: ""
+        href: https://linkedin.com/in/norhendra
+        icon: linkedin         # ← bootstrap icon name
+        target: "_blank"
+      - text: Contact
+        href: contact.html
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: About
+        href: about.html
+      - text: Projects
+        href: projects.html
+      - text: Contact
+        href: contact.html
 
 format:
   html:
-    theme: cosmo
+    theme: zephyr
     css: styles.css
     toc: true
 
-editor: visual
-
+  

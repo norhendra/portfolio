@@ -1,1 +1,64 @@
-/* css styles */
+/* ===========================
+   Global Navbar Styles
+   =========================== */
+.navbar {
+  background-color: #000 !important; /* black navbar */
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #fff !important;           /* white text */
+}
+
+.navbar .nav-link:hover {
+  color: #ccc !important;           /* lighter hover */
+}
+
+/* ===========================
+   Logo Sizing Override
+   =========================== */
+/* targets Quarto’s navbar logo and any <img> in the brand area */
+.navbar-logo,
+.navbar-brand img {
+  max-height: 2rem !important;      /* adjust (e.g. 3rem–5rem) to fit perfectly */
+  height: auto !important;
+  width: auto !important;
+}
+
+/* ===========================
+   Navbar Font Sizing
+   =========================== */
+.navbar .navbar-brand {
+  font-size: 1.5rem !important;  /* adjust up/down to taste */
+}
+
+.navbar .nav-link {
+  font-size: 1.1rem !important;  /* adjust up/down to taste */
+}
+
+/* Contact form styling */
+form[name="contact"] {
+  max-width: 500px;
+  margin: 2rem auto;
+}
+form[name="contact"] input,
+form[name="contact"] textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+form[name="contact"] button {
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+form[name="contact"] button:hover {
+  background-color: #1f5f87;
+}
+
+
