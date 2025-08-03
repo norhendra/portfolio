@@ -11,7 +11,7 @@ website:
     title: false
     logo: images/hendralogo.png
     logo-alt: "Hendra Logo"
-    logo-href: index.html
+    logo-href: "/"
     right:
       - text: ""
         href: https://github.com/norhendra
@@ -26,11 +26,16 @@ website:
         icon: envelope
         target: "_blank"
     left:
-      - text: About
-        href: about.html
-      - text: Projects
-        href: projects.html
-
+    - text: "Projects"
+      menu:
+        - text: "Product Management"
+          href: "projects/productmanagement/productmanagement.html"
+        - text: "Agile DevSecOps"
+          href: "projects/agile/agile.html"
+        - text: "Spreadsheet Modelling"
+          href: "projects/spreadsheet/spreadsheet.html"
+        - text: "Visual Analytics"
+          href: "projects/vaa/vaa.html"          
 format:
   html:
     theme: zephyr

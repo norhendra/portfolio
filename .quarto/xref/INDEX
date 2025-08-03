@@ -7,5 +7,17 @@
   },
   "contact.qmd": {
     "contact.html": "2062fdb7"
+  },
+  "projects/productmanagement/productmanagement.qmd": {
+    "productmanagement.html": "1f134da5"
+  },
+  "projects/spreadsheet/spreadsheet.qmd": {
+    "spreadsheet.html": "1229a4e0"
+  },
+  "projects/vaa/vaa.qmd": {
+    "vaa.html": "cacdbc6e"
+  },
+  "projects/agile/agile.qmd": {
+    "agile.html": "838ae5b7"
   }
 }

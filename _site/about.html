@@ -112,7 +112,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="index.html" class="navbar-brand navbar-brand-logo">
+    <a href="./" class="navbar-brand navbar-brand-logo">
     <img src="./images/hendralogo.png" alt="Hendra Logo" class="navbar-logo">
     </a>
   </div>
@@ -122,14 +122,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
-<span class="menu-text">About</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="./projects/productmanagement/productmanagement.html">
+ <span class="dropdown-text">Product Management</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Projects</span></a>
+        <li>
+    <a class="dropdown-item" href="./projects/agile/agile.html">
+ <span class="dropdown-text">Agile DevSecOps</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/spreadsheet/spreadsheet.html">
+ <span class="dropdown-text">Spreadsheet Modelling</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./projects/vaa/vaa.html">
+ <span class="dropdown-text">Visual Analytics</span></a>
+  </li>  
+    </ul>
+  </li>
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">

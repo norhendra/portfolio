@@ -1,10 +1,14 @@
 ---
-title: Welcome
-format: html
+title: ""
+format:
+  html:
+    toc: false        
 ---
 
-## Hey! I’m Nor Hendra.
+## Hey! I’m [Nor Hendra]{.name-highlight}.
 
-I’m a Master of IT in Business candidate at Singapore Management University, specializing in Data Science & Analytics. I work in the digital asset space, and here you’ll find highlights of what I’ve learned along the way in school.
+I’m pursuing a part-time Master of IT in Business (Data Science & Analytics) at Singapore Management University while working full-time in the digital asset space. I’m eager to learn and apply my growing mix of academic insight and hands-on experience in a new opportunity.
 
-Feel free to connect on [LinkedIn](https://linkedin.com/in/norhendra) or hit the Contact button below.
+Browse my projects to see how I can add value.
+
+Whether you're a recruiter looking for my resume or you just want to connect, feel free to reach out on  [LinkedIn](https://linkedin.com/in/norhendra) or [Contact me](contact.html){.btn .btn-dark}.

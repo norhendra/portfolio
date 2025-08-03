@@ -60,3 +60,34 @@ form[name="contact"] {
   max-width: none !important;
   padding: 0 1rem !important;
 }
+
+/* make the “Nor Hendra” span pop */
+.name-highlight {
+  color: #00a3a4 !important;    /* pick your favorite hex or CSS color name */
+}
+
+/* ===============================
+   Main‐content text: force black
+   (excludes navbar and btns)
+   =============================== */
+main p,
+main li,
+main h1, main h2, main h3, main h4, main h5, main h6,
+main span,
+main blockquote,
+main code,
+main pre,
+main a:not(.btn):not(.btn-dark):not(.btn-contact) {
+  color: #000 !important;
+}
+
+/* ===============================
+   Buttons: force white text back
+   =============================== */
+.btn,
+.btn-dark,
+.btn-contact {
+  color: #fff !important;
+}
+
+
