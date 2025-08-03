@@ -21,15 +21,15 @@ website:
         href: https://linkedin.com/in/norhendra
         icon: linkedin         # ← bootstrap icon name
         target: "_blank"
-      - text: Contact
+      - text: ""
         href: contact.html
+        icon: envelope
+        target: "_blank"
     left:
       - text: About
         href: about.html
       - text: Projects
         href: projects.html
-      - text: Contact
-        href: contact.html
 
 format:
   html:

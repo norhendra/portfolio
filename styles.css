@@ -36,29 +36,27 @@
   font-size: 1.1rem !important;  /* adjust up/down to taste */
 }
 
-/* Contact form styling */
+/* ====== Full-Width Contact Form ====== */
 form[name="contact"] {
-  max-width: 500px;
-  margin: 2rem auto;
+  max-width: none       !important;  /* remove any cap */
+  width: calc(100% - 2rem) !important;  /* full width minus padding */
+  margin: 2rem auto     !important;  /* vertical centering */
+  padding: 0 1rem        !important;  /* horizontal breathing room */
 }
+
 form[name="contact"] input,
 form[name="contact"] textarea {
-  width: 100%;
-  padding: 0.5rem;
-  margin-top: 0.25rem;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-}
-form[name="contact"] button {
-  background-color: #2980b9;
-  color: #fff;
-  border: none;
-  padding: 0.75rem 1.25rem;
-  border-radius: 4px;
-  cursor: pointer;
-}
-form[name="contact"] button:hover {
-  background-color: #1f5f87;
+  width: 100%           !important;  /* fill the form’s width */
+  box-sizing: border-box !important;
 }
 
+form[name="contact"] textarea {
+  min-height: 300px     !important;
+}
 
+/* at the bottom of styles.css */
+form[name="contact"] {
+  width: 100% !important;
+  max-width: none !important;
+  padding: 0 1rem !important;
+}
