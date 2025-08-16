@@ -19,7 +19,7 @@ Finally, I modelled real operations with queues and automated routine work with 
 
 Singaporeans live for food. This fact is nowhere more evident than in our nation's vibrant buffet scene. Yet even our most celebrated hotel buffets struggle to turn that passion into optimal performance.
 
-In this project, our team assumes the role of an operator for a buffet restaurant located in a 5-star hotel. As such, the goal is to develop a data-driven framework to tackle the challenges in the F&B industry and optimize our operations.
+In this project, my team assumes the role of an operator for a buffet restaurant located in a 5-star hotel. As such, the goal is to develop a data-driven framework to tackle the challenges in the F&B industry and optimize our operations.
 
 <iframe src="IS602_G2_Group2_Project_Presentation_Slides.pdf" width="100%" height="650"></iframe>
 
