@@ -1,8 +1,63 @@
 ---
-title: "Product Management"
+title: "Digital Product Management"
 format: html
 ---
 
 **Term:** Term 1 2025
 
 **Period:** January 2025 to April 2025
+
+# Learning Takeaways
+
+I have always been interested in Product Management and took this module to learn more and hone myself with the skillset necessary to be a Product Manager. I came in thinking product management was just about shipping features. I learned it actually starts with structured discovery and clear problem framing. Design Thinking and the Double Diamond gave me a simple path to follow: empathize and define before ideating, then prototype and test before committing to delivery. Customer journey maps helped me see the user’s experience end to end, while basic market analysis like SWOT, Five Forces, and PESTLE grounded choices in competitive reality. I also learned how to reduce risk before code by moving from low-fidelity to high-fidelity prototypes and by using the right evaluation methods at the right time. Formative testing is for diagnosing issues early and summative testing is for benchmarking later. Heuristic reviews, including Nielsen’s, and a set of practical “will users see, recognize, and understand this control and its feedback” questions made usability work more systematic.
+
+I also learned why some products feel easy the first time you use them. Mental models, conceptual models, and the Gulfs of Execution and Evaluation explained how gaps between what users expect and how a system behaves cause confusion. Information Architecture showed me how naming and structure support task completion. The module stressed building responsibly as well, covering inclusive and ethical design considerations such as accessibility, privacy, and transparency. I was introduced to behavioral economics and saw how patterns like defaults, social proof, and loss aversion show up in everyday products, with concrete examples that made the benefits and risks clear. These topics map directly to real product management work where clarity, accessibility, and user trust are part of the definition of success.
+
+Finally, I learned to make decisions with data and to think beyond one market. On the analytics side I studied the core product metrics that hiring managers expect, including DAU and MAU for engagement and stickiness, churn and lifetime value for retention and profitability, and conversion for outcomes, together with marketing metrics like traffic, CTR, CAC, and engagement. The materials emphasized clean instrumentation and data governance, a mix of quantitative methods like cohorts and funnels with qualitative research like interviews, and the limits of A/B tests which tell you what works but not why. I was introduced to an analytics maturity ladder from descriptive and diagnostic work to predictive and prescriptive, and how dashboards help teams spot issues and opportunities quickly. On global product management I learned the product lifecycle and the main reasons to internationalize, plus how internationalization, localization, and customization differ and how team topology changes when operating across markets. These lessons translate into entry-level PM contributions like setting sensible KPIs, partnering on tracking plans, reading funnels and cohorts, helping plan experiments, and preparing internationalization and localization checklists for expansion.
+
+# Project: ATLAS
+
+ATLAS (Advanced Technology Library for Auto Spares) is a product concept built to fix a broken quality-assurance workflow in auto-parts warehouses. The persona is a QA executive who currently verifies parts against Excel and paper records, leading to inconsistent checks, heavy manual entry, poor traceability, and delays. ATLAS proposes a centralized digital catalogue with an intuitive interface, AI-assisted visual verification, clear status tracking, and auditable records. The plan is framed with OKRs: cut verification time by 50% per item, reduce returns by 80%, achieve 100% traceability, and raise defect-detection accuracy to 90%. The roadmap moves from problem validation to a functional prototype, pilot, and scale, with a focused UVP and defensibility through niche expertise and a data moat. Expected business impact includes fewer errors, faster checks, and lower operating costs.
+
+<iframe src="ATLAS_Final.pdf" width="100%" height="650"></iframe>
+
+## Prototype 1
+
+:::: {=html}
+::: {style="max-width: 900px; margin: 0 auto;"}
+<iframe
+    src="https://www.youtube.com/embed/XcAJi3uF1UI"
+    title="YouTube video"
+    style="width:100%; aspect-ratio:16/9; border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen> </iframe>
+:::
+::::
+
+## Prototype 2
+
+User reviews of the first prototype surfaced three needs: end-to-end cataloguing, unmistakable pass/fail/reject states, and a way to leave comments that other QA staff can see. The second iteration addressed these by enabling on-site use so users no longer walk between warehouse and desk, adding color-coded checks instead of black-and-white Excel-style views, and layering in AI assistance to reduce reliance on human memory and visual accuracy. Users reported saving about 10–13 minutes per item, clearer status visibility that prevents mistaken validations, and early signs of fewer customer returns, which improves credibility and potential financial outcomes. The updated prototype was delivered in Figma for click-through testing and tied back to the OKRs and usability heuristics emphasized in the project.
+
+:::: {=html}
+::: {style="max-width: 900px; margin: 0 auto;"}
+<iframe
+    src="https://www.youtube.com/embed/NtmNlh3Ldog"
+    title="YouTube video"
+    style="width:100%; aspect-ratio:16/9; border:0;"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen> </iframe>
+:::
+::::
+
+## Figma Prototyping
+
+I had never used Figma before this project, so I set aside time to learn the basics and build a working MVP. I started with frames, grids, and shared text and color styles for consistency. On the prototyping side I wired screens with links and interactive components, added overlays for scan and comment flows. Taking inspiration from online marketplaces like Shopee and Amazon, I learned how to design scrollable experiences, especially when looking through images in the catalouge. These choices made the prototype feel close to a real app, which helped classmates click through naturally and gave us better feedback on pacing, legibility, and control placement.
+
+:::: {=html}
+::: {style="display:flex; justify-content:center;"}
+<iframe
+    style="border:1px solid rgba(0,0,0,0.1); width:min(100%, 300px); height:600px;"
+    src="https://embed.figma.com/proto/bkt9SBLA7Mr7YLZPOSvYFZ/ATLAS-APP?node-id=16-1249&embed-host=share"
+    allowfullscreen> </iframe>
+:::
+::::

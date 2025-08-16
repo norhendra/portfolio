@@ -6,3 +6,28 @@ format: html
 **Term:** Term 2 2025
 
 **Period:** April 2025 to July 2025
+
+# Learning Takeaways
+
+I learned to think like a modeller before touching Excel. We began with influence diagrams and a clear split between inputs, calculations, and outputs, then used what-if, sensitivity, trade-off, and break-even analysis to answer real questions. Goal Seek and Solver helped me hit targets and optimise under constraints, and I used LOOKUP, INDEX/MATCH, and one- and two-variable Data Tables to turn spreadsheets into decision tools. Linear programming tied it together in cases like mix and allocation, where the “best” answer must respect limits.
+
+I also learned to handle time, money, and uncertainty properly. Finance functions like PMT, PV, FV, NPV, and IRR made cash flows and timing explicit. Monte Carlo simulation moved me from single answers to ranges, using random draws and percentiles to show risk and confidence. Simple checks, like Monty Hall style tests, kept model logic honest.
+
+Finally, I modelled real operations with queues and automated routine work with VBA. I built a queue that tracks arrivals, service, and wait times, then extended it to multiple servers and realistic behaviours. The same ideas powered my buffet project: match staffing to demand peaks, keep average wait under a target, and show leaders clear trade-offs between cost and customer experience. Overall, I learned to frame the problem, build a structured model, test assumptions, and turn outputs into decisions people can act on.
+
+# Project: Buffet Optimization: High Streaks Forecasting
+
+Singaporeans live for food. This fact is nowhere more evident than in our nation's vibrant buffet scene. Yet even our most celebrated hotel buffets struggle to turn that passion into optimal performance.
+
+In this project, our team assumes the role of an operator for a buffet restaurant located in a 5-star hotel. As such, the goal is to develop a data-driven framework to tackle the challenges in the F&B industry and optimize our operations.
+
+<iframe src="IS602_G2_Group2_Project_Presentation_Slides.pdf" width="100%" height="650"></iframe>
+
+Based on the slides above, I decided to do Customer Satisfaction which incorporated the Monte Carlo simulation of exponential distribution to randomize the arrivals. I also used the What-if Analysis data table to generate the average wait time at different number of servers and run 1000 simulations. Lastly, I created macros to input the number of simulations to be executed and the factor depending on seasons.
+
+
+[Download the Excel workbook for Buffet Optimization: High Streaks Forecasting](IS602_G2_Group2_Buffet_Optimization_Workbook.xlsm)
+
+
+
+

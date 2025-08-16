@@ -81,13 +81,32 @@ main a:not(.btn):not(.btn-dark):not(.btn-contact) {
   color: #000 !important;
 }
 
-/* ===============================
-   Buttons: force white text back
-   =============================== */
-.btn,
-.btn-dark,
-.btn-contact {
-  color: #fff !important;
+.project-card {
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: 12px;
+  overflow: hidden;              /* clips image corners to the same radius */
 }
+.project-card .card-img-top {
+  height: 190px;                 /* keep your thumbnail height */
+  object-fit: cover;
+  border-bottom: 1px solid rgba(0,0,0,.08);
+}
+.project-card { transition: transform .08s ease, box-shadow .08s ease; }
+.project-card:hover { transform: translateY(-2px); box-shadow: 0 .5rem 1rem rgba(0,0,0,.12); }
 
+/* LinkedIn button */
+.btn-linkedin{
+  background-color:#0A66C2;   /* LinkedIn blue */
+  border-color:#0A66C2;
+  color:#fff;
+}
+.btn-linkedin:hover,
+.btn-linkedin:focus{
+  background-color:#004182;   /* darker hover */
+  border-color:#004182;
+  color:#fff;
+}
+.btn-linkedin:focus-visible{
+  box-shadow:0 0 0 .25rem rgba(10,102,194,.35);
+}
 

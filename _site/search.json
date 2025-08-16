@@ -7,11 +7,18 @@
     "text": "About this site\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "projects/productmanagement/productmanagement.html",
-    "href": "projects/productmanagement/productmanagement.html",
-    "title": "Product Management",
+    "objectID": "projects/vaa/vaa.html",
+    "href": "projects/vaa/vaa.html",
+    "title": "Visual Analytics and Applications",
     "section": "",
-    "text": "Term: Term 1 2025\nPeriod: January 2025 to April 2025"
+    "text": "Term: Term 2 2025\nPeriod: April 2025 to July 2025\nVisual Analytics Learning: https://norhendra-isss608.netlify.app/\nVAST Challenge 2025 Coursework Page: https://oceanustv.netlify.app/\nVAST Challenge 2025 Shiny App: https://norhendra-isss608.shinyapps.io/oceanustv/\nTableau: https://public.tableau.com/app/profile/nhendra/vizzes\nI started by getting very comfortable with tidy data work in R, because good visuals begin with clean inputs. In my demographic story project I learned to coerce factors into the right order, catch and remove zero-population rows, convert text ages like “90 & Over” into integers, and verify there were no missing values or accidental “Total” rows. That workflow gave me reproducible plots and prevented misleading charts later on. I also practiced structured critique and redesign. Using a classmate’s population pyramid, I documented three strengths, then fixed axis semantics, clarified bin labels, aligned scales to human reading, and added per-bar percentages plus a clear subtitle with total population. The final version balanced accuracy and readability and showed me how small design decisions change audience comprehension.\nFrom there I explored a broad toolbox of visual methods and interactive techniques. I learned geospatial mapping by joining statistical tables to shapefiles with sf, then building choropleths and small multiples with tmap, paying attention to classification and legend design. I practiced multivariate views too: ternary plots with ggtern and an interactive variant with Plotly, correlation matrices and corrgrams for quick structure checks, and interactive heatmaps with heatmaply, comparing scaling, normalising and percentising so patterns weren’t washed out by different value ranges. I learned network analysis end-to-end by building tidygraph objects from email data, calculating centrality, testing layouts in ggraph, and adding interactivity with visNetwork. I also learned to handle time-oriented data with calendar heatmaps, cycle plots and slopegraphs, which forced me to derive date parts correctly and choose encodings that make seasonality and long-term change visible. Finally, I moved into dashboard artefacts. I built bullet charts and sparklines in ggplot2, turned them into readable tables with gt and gtExtras, created interactive reports with reactable, and documented how to ingest data from Access and reshape it for reporting.\nI ended by prototyping a Shiny dashboard around the VAST challenge. I borrowed familiar Spotify UI patterns to reduce cognitive load, and wired up network exploration with visNetwork so people could trace influences and collaborations in a knowledge graph. That exercise reinforced the value of mental models, consistent color systems, and interaction affordances when a design has to guide the story. Taken together, these pieces map directly to real work: wrangling messy data into tidy frames, selecting the right chart for the question, critiquing and iterating for clarity, building spatial and network views when relationships matter, and shipping interactive dashboards that decision-makers can actually use."
+  },
+  {
+    "objectID": "projects/spreadsheet/spreadsheet.html",
+    "href": "projects/spreadsheet/spreadsheet.html",
+    "title": "Spreadsheet Modelling",
+    "section": "",
+    "text": "Term: Term 2 2025\nPeriod: April 2025 to July 2025\n\nLearning Takeaways\nI learned to think like a modeller before touching Excel. We began with influence diagrams and a clear split between inputs, calculations, and outputs, then used what-if, sensitivity, trade-off, and break-even analysis to answer real questions. Goal Seek and Solver helped me hit targets and optimise under constraints, and I used LOOKUP, INDEX/MATCH, and one- and two-variable Data Tables to turn spreadsheets into decision tools. Linear programming tied it together in cases like mix and allocation, where the “best” answer must respect limits.\nI also learned to handle time, money, and uncertainty properly. Finance functions like PMT, PV, FV, NPV, and IRR made cash flows and timing explicit. Monte Carlo simulation moved me from single answers to ranges, using random draws and percentiles to show risk and confidence. Simple checks, like Monty Hall style tests, kept model logic honest.\nFinally, I modelled real operations with queues and automated routine work with VBA. I built a queue that tracks arrivals, service, and wait times, then extended it to multiple servers and realistic behaviours. The same ideas powered my buffet project: match staffing to demand peaks, keep average wait under a target, and show leaders clear trade-offs between cost and customer experience. Overall, I learned to frame the problem, build a structured model, test assumptions, and turn outputs into decisions people can act on.\n\n\nProject: Buffet Optimization: High Streaks Forecasting\nSingaporeans live for food. This fact is nowhere more evident than in our nation’s vibrant buffet scene. Yet even our most celebrated hotel buffets struggle to turn that passion into optimal performance.\nIn this project, our team assumes the role of an operator for a buffet restaurant located in a 5-star hotel. As such, the goal is to develop a data-driven framework to tackle the challenges in the F&B industry and optimize our operations.\n\n\nBased on the slides above, I decided to do Customer Satisfaction which incorporated the Monte Carlo simulation of exponential distribution to randomize the arrivals. I also used the What-if Analysis data table to generate the average wait time at different number of servers and run 1000 simulations. Lastly, I created macros to input the number of simulations to be executed and the factor depending on seasons.\nDownload the Excel workbook for Buffet Optimization: High Streaks Forecasting"
   },
   {
     "objectID": "contact.html",
@@ -19,6 +26,34 @@
     "title": "Get in Touch",
     "section": "",
     "text": "Fill out the form below and I’ll get back to you as soon as I can.\nAlternatively, you can send me a message on my LinkedIn or send me a message below.\n\n\n\n\nDon’t fill this out if you’re human: \n\n\nYour Name  \n\n\nYour Email  \n\n\nMessage\n\n\n\n\n\nSend Message"
+  },
+  {
+    "objectID": "projects/productmanagement/productmanagement.html",
+    "href": "projects/productmanagement/productmanagement.html",
+    "title": "Digital Product Management",
+    "section": "",
+    "text": "Term: Term 1 2025\nPeriod: January 2025 to April 2025"
+  },
+  {
+    "objectID": "projects/productmanagement/productmanagement.html#prototype-1",
+    "href": "projects/productmanagement/productmanagement.html#prototype-1",
+    "title": "Digital Product Management",
+    "section": "Prototype 1",
+    "text": "Prototype 1"
+  },
+  {
+    "objectID": "projects/productmanagement/productmanagement.html#prototype-2",
+    "href": "projects/productmanagement/productmanagement.html#prototype-2",
+    "title": "Digital Product Management",
+    "section": "Prototype 2",
+    "text": "Prototype 2\nUser reviews of the first prototype surfaced three needs: end-to-end cataloguing, unmistakable pass/fail/reject states, and a way to leave comments that other QA staff can see. The second iteration addressed these by enabling on-site use so users no longer walk between warehouse and desk, adding color-coded checks instead of black-and-white Excel-style views, and layering in AI assistance to reduce reliance on human memory and visual accuracy. Users reported saving about 10–13 minutes per item, clearer status visibility that prevents mistaken validations, and early signs of fewer customer returns, which improves credibility and potential financial outcomes. The updated prototype was delivered in Figma for click-through testing and tied back to the OKRs and usability heuristics emphasized in the project."
+  },
+  {
+    "objectID": "projects/productmanagement/productmanagement.html#figma-prototyping",
+    "href": "projects/productmanagement/productmanagement.html#figma-prototyping",
+    "title": "Digital Product Management",
+    "section": "Figma Prototyping",
+    "text": "Figma Prototyping\nI had never used Figma before this project, so I set aside time to learn the basics and build a working MVP. I started with frames, grids, and shared text and color styles for consistency. On the prototyping side I wired screens with links and interactive components, added overlays for scan and comment flows. Taking inspiration from online marketplaces like Shopee and Amazon, I learned how to design scrollable experiences, especially when looking through images in the catalouge. These choices made the prototype feel close to a real app, which helped classmates click through naturally and gave us better feedback on pacing, legibility, and control placement."
   },
   {
     "objectID": "index.html",
@@ -33,5 +68,12 @@
     "title": "Nor Hendra",
     "section": "",
     "text": "I’m pursuing a part-time Master of IT in Business (Data Science & Analytics) at Singapore Management University while working full-time in the digital asset space. I’m eager to learn and apply my growing mix of academic insight and hands-on experience in a new opportunity.\nBrowse my projects to see how I can add value.\nWhether you’re a recruiter looking for my resume or you just want to connect, feel free to reach out on LinkedIn or Contact me."
+  },
+  {
+    "objectID": "index.html#academic-projects",
+    "href": "index.html#academic-projects",
+    "title": "Nor Hendra",
+    "section": "Academic Projects",
+    "text": "Academic Projects\n\n\n  \n  \n    \n      \n      \n        Module: Product Management\n        Project: ATLAS \n        Skills: design-thinking journey-mapping figma heuristics product-analytics \n        \n      \n    \n  \n\n  \n \n    \n      \n      \n        Module: Visual Analytics \n        Project: OceanusTV \n        Skills: R shiny Tableau\n        \n      \n    \n  \n\n  \n \n    \n      \n      \n        Module: Spreadsheet Modeling\n        Project: High Steaks Forecasting\n        Skills: excel VBA influence-diagram monte-carlo what-if sensitivity solver"
   }
 ]

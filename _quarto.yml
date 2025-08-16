@@ -26,16 +26,15 @@ website:
         icon: envelope
         target: "_blank"
     left:
-    - text: "Projects"
+    - text: "Academic Projects"
       menu:
-        - text: "Product Management"
+        - text: "Digital Product Management"
           href: "projects/productmanagement/productmanagement.html"
-        - text: "Agile DevSecOps"
-          href: "projects/agile/agile.html"
+        - text: "Visual Analytics"
+          href: "projects/vaa/vaa.html"            
         - text: "Spreadsheet Modelling"
           href: "projects/spreadsheet/spreadsheet.html"
-        - text: "Visual Analytics"
-          href: "projects/vaa/vaa.html"          
+       
 format:
   html:
     theme: zephyr

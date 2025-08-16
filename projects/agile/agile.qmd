@@ -1,8 +1,0 @@
----
-title: "Agile and DevSecOps"
-format: html
----
-
-Term: Term 1 2025
-
-Period: January 2025 to April 2025

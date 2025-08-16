@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>vaa – Nor Hendra</title>
+<title>Visual Analytics and Applications – Nor Hendra</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -89,25 +89,21 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Projects</span>
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-academic-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Academic Projects</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-academic-projects">    
         <li>
     <a class="dropdown-item" href="../../projects/productmanagement/productmanagement.html">
- <span class="dropdown-text">Product Management</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../projects/agile/agile.html">
- <span class="dropdown-text">Agile DevSecOps</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../projects/spreadsheet/spreadsheet.html">
- <span class="dropdown-text">Spreadsheet Modelling</span></a>
+ <span class="dropdown-text">Digital Product Management</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../projects/vaa/vaa.html">
  <span class="dropdown-text">Visual Analytics</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../projects/spreadsheet/spreadsheet.html">
+ <span class="dropdown-text">Spreadsheet Modelling</span></a>
   </li>  
     </ul>
   </li>
@@ -147,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">vaa</h1>
+<h1 class="title">Visual Analytics and Applications</h1>
 </div>
 
 
@@ -164,6 +160,15 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p><strong>Term:</strong> Term 2 2025</p>
+<p><strong>Period:</strong> April 2025 to July 2025</p>
+<p><strong>Visual Analytics Learning:</strong> <a href="https://norhendra-isss608.netlify.app/" class="uri">https://norhendra-isss608.netlify.app/</a></p>
+<p><strong>VAST Challenge 2025 Coursework Page:</strong> <a href="https://oceanustv.netlify.app/" class="uri">https://oceanustv.netlify.app/</a></p>
+<p><strong>VAST Challenge 2025 Shiny App:</strong> <a href="https://norhendra-isss608.shinyapps.io/oceanustv/" class="uri">https://norhendra-isss608.shinyapps.io/oceanustv/</a></p>
+<p><strong>Tableau:</strong> <a href="https://public.tableau.com/app/profile/nhendra/vizzes" class="uri">https://public.tableau.com/app/profile/nhendra/vizzes</a></p>
+<p>I started by getting very comfortable with tidy data work in R, because good visuals begin with clean inputs. In my demographic story project I learned to coerce factors into the right order, catch and remove zero-population rows, convert text ages like “90 &amp; Over” into integers, and verify there were no missing values or accidental “Total” rows. That workflow gave me reproducible plots and prevented misleading charts later on. I also practiced structured critique and redesign. Using a classmate’s population pyramid, I documented three strengths, then fixed axis semantics, clarified bin labels, aligned scales to human reading, and added per-bar percentages plus a clear subtitle with total population. The final version balanced accuracy and readability and showed me how small design decisions change audience comprehension.</p>
+<p>From there I explored a broad toolbox of visual methods and interactive techniques. I learned geospatial mapping by joining statistical tables to shapefiles with <code>sf</code>, then building choropleths and small multiples with <code>tmap</code>, paying attention to classification and legend design. I practiced multivariate views too: ternary plots with <code>ggtern</code> and an interactive variant with Plotly, correlation matrices and corrgrams for quick structure checks, and interactive heatmaps with <code>heatmaply</code>, comparing scaling, normalising and percentising so patterns weren’t washed out by different value ranges. I learned network analysis end-to-end by building <code>tidygraph</code> objects from email data, calculating centrality, testing layouts in <code>ggraph</code>, and adding interactivity with <code>visNetwork</code>. I also learned to handle time-oriented data with calendar heatmaps, cycle plots and slopegraphs, which forced me to derive date parts correctly and choose encodings that make seasonality and long-term change visible. Finally, I moved into dashboard artefacts. I built bullet charts and sparklines in <code>ggplot2</code>, turned them into readable tables with <code>gt</code> and <code>gtExtras</code>, created interactive reports with <code>reactable</code>, and documented how to ingest data from Access and reshape it for reporting.</p>
+<p>I ended by prototyping a Shiny dashboard around the <a href="https://vast-challenge.github.io/2025/MC1.html">VAST challenge</a>. I borrowed familiar Spotify UI patterns to reduce cognitive load, and wired up network exploration with <code>visNetwork</code> so people could trace influences and collaborations in a knowledge graph. That exercise reinforced the value of mental models, consistent color systems, and interaction affordances when a design has to guide the story. Taken together, these pieces map directly to real work: wrangling messy data into tidy frames, selecting the right chart for the question, critiquing and iterating for clarity, building spatial and network views when relationships matter, and shipping interactive dashboards that decision-makers can actually use.</p>
 
 
 

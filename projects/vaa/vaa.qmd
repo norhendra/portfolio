@@ -6,3 +6,17 @@ format: html
 **Term:** Term 2 2025
 
 **Period:** April 2025 to July 2025
+
+**Visual Analytics Learning:** <https://norhendra-isss608.netlify.app/>
+
+**VAST Challenge 2025 Coursework Page:** <https://oceanustv.netlify.app/>
+
+**VAST Challenge 2025 Shiny App:** <https://norhendra-isss608.shinyapps.io/oceanustv/>
+
+**Tableau:** <https://public.tableau.com/app/profile/nhendra/vizzes>
+
+I started by getting very comfortable with tidy data work in R, because good visuals begin with clean inputs. In my demographic story project I learned to coerce factors into the right order, catch and remove zero-population rows, convert text ages like “90 & Over” into integers, and verify there were no missing values or accidental “Total” rows. That workflow gave me reproducible plots and prevented misleading charts later on. I also practiced structured critique and redesign. Using a classmate’s population pyramid, I documented three strengths, then fixed axis semantics, clarified bin labels, aligned scales to human reading, and added per-bar percentages plus a clear subtitle with total population. The final version balanced accuracy and readability and showed me how small design decisions change audience comprehension.
+
+From there I explored a broad toolbox of visual methods and interactive techniques. I learned geospatial mapping by joining statistical tables to shapefiles with `sf`, then building choropleths and small multiples with `tmap`, paying attention to classification and legend design. I practiced multivariate views too: ternary plots with `ggtern` and an interactive variant with Plotly, correlation matrices and corrgrams for quick structure checks, and interactive heatmaps with `heatmaply`, comparing scaling, normalising and percentising so patterns weren’t washed out by different value ranges. I learned network analysis end-to-end by building `tidygraph` objects from email data, calculating centrality, testing layouts in `ggraph`, and adding interactivity with `visNetwork`. I also learned to handle time-oriented data with calendar heatmaps, cycle plots and slopegraphs, which forced me to derive date parts correctly and choose encodings that make seasonality and long-term change visible. Finally, I moved into dashboard artefacts. I built bullet charts and sparklines in `ggplot2`, turned them into readable tables with `gt` and `gtExtras`, created interactive reports with `reactable`, and documented how to ingest data from Access and reshape it for reporting.
+
+I ended by prototyping a Shiny dashboard around the [VAST challenge](https://vast-challenge.github.io/2025/MC1.html). I borrowed familiar Spotify UI patterns to reduce cognitive load, and wired up network exploration with `visNetwork` so people could trace influences and collaborations in a knowledge graph. That exercise reinforced the value of mental models, consistent color systems, and interaction affordances when a design has to guide the story. Taken together, these pieces map directly to real work: wrangling messy data into tidy frames, selecting the right chart for the question, critiquing and iterating for clarity, building spatial and network views when relationships matter, and shipping interactive dashboards that decision-makers can actually use.
