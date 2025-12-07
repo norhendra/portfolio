@@ -19,5 +19,8 @@
   },
   "projects/agile/agile.qmd": {
     "agile.html": "838ae5b7"
+  },
+  "projects/data analytics lab/dal.qmd": {
+    "dal.html": "64096ba0"
   }
 }

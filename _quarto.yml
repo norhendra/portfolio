@@ -34,6 +34,8 @@ website:
           href: "projects/vaa/vaa.html"            
         - text: "Spreadsheet Modelling"
           href: "projects/spreadsheet/spreadsheet.html"
+        - text: "Data Analytics Lab"
+          href: "projects/data analytics lab/dal.html"
        
 format:
   html:

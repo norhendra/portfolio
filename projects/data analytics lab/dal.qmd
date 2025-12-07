@@ -1,0 +1,80 @@
+---
+title: "Data Analytics Lab"
+format: html
+---
+
+**Term:** Term 3 2025
+
+**Period:** August 2025 to November 2025
+
+# Learning Takeaways
+
+When I began the Data Analytics Lab, I expected to run standard statistical models. However, my experience evolved into a comprehensive exploration of the Data Analytics Lifecycle, where I learned that the true value of analytics isn't just in the math, it's in deriving actionable business impact. Using SAS Viya, I moved beyond simple linear regression to master a sophisticated toolkit for handling real-world data complexity.
+
+1.  **Mastering the Data Lifecycle**
+
+I learned early on that "garbage in" leads to "garbage out." I adopted the Interactive Data Exploration and Analysis (IDEA) framework , which taught me that visualization is not just a final step but a crucial part of the discovery phase. I gained the ability to:
+
+**Navigate Data Quality:** I learned to handle missing values and outliers not by blindly deleting them, but by understanding their context and impact.
+
+**Visualize for Insight:** I utilized advanced visualization techniques, such as trellis charts and mosaic plots, to uncover relationships in multivariate data before ever running a model.
+
+2.  **Advanced Predictive Modeling**
+
+While I built a strong foundation in Multiple Linear Regression, identifying issues like multicollinearity using VIF, my learning quickly advanced to more complex predictive engines:
+
+Handling Categorical Outcomes: I moved beyond continuous predictions to solve binary classification problems (e.g., Churn vs. No Churn) using Logistic Regression , interpreting results through Odds Ratios and Logits.
+
+**Machine Learning Ensembles:** I discovered the power of Recursive Partitioning, determining when to use Decision Trees versus more robust ensemble methods like Random Forests and Gradient Boosted Trees to improve prediction accuracy and handle non-linear data.
+
+**Model Evaluation:** I learned that "accuracy" is often misleading. I now evaluate models using ROC Curves, Lift Charts, and F1 Scores, ensuring my models perform well even on imbalanced datasets.
+
+3.  **Uncovering Hidden Patterns (Unsupervised Learning)**
+
+I developed the ability to segment data without predefined labels using Cluster Analysis. I learned to navigate the trade-offs between:
+
+Hierarchical Clustering: Using dendrograms to visualize nested clusters and selecting algorithms like Ward’s method for minimizing variance.
+
+**K-Means & GMM:** I applied k-means for larger datasets and Gaussian Mixture Models (GMM) for "soft classification," where data points belong to clusters based on probability rather than rigid boundaries. I learned to validate these clusters using parallel coordinates to ensure they made business sense.
+
+4.  **Forecasting the Future (Time-Series)**
+
+I gained specialized skills in analyzing temporal data, understanding that time-series data requires unique handling of trends, seasonality, and cycles.
+
+**Smoothing & ARIMA:** I learned to smooth volatile data using Holt-Winters Exponential Smoothing and built rigorous ARIMA (AutoRegressive Integrated Moving Average) models.
+
+**Stationarity:** I learned the critical importance of stationarity and how to achieve it through differencing to ensure my forecasts were statistically valid.
+
+**Conclusion**
+
+This course transformed my perspective from simply "fitting a line" to building robust, defensible models. I now understand that a data analyst's role is to bridge the gap between technical rigor,checking assumptions like normality and homoskedasticity, and the strategic need to solve business problems.
+
+# Project 1: Show Me the Numbers
+
+<iframe src="ISSS602_AY2025-26Aug_Assign1_ES.pdf" width="100%" height="650">
+
+</iframe>
+
+<iframe src="ISSS602_AY2025-26Aug_Assign1_TR.pdf" width="100%" height="650">
+
+</iframe>
+
+# Project 2: Hospitality Segmentation with Cluster Analysis
+
+<iframe src="ISSS602_AY2025-26Aug_Assign2_ES.pdf" width="100%" height="650">
+
+</iframe>
+
+<iframe src="ISSS602_AY2025-26Aug_Assign2_TR.pdf" width="100%" height="650">
+
+</iframe>
+
+# Final Project: **An Explanatory Analysis of Power-Factor Efficiency and Peak Loads in Steel-Plant Operations**
+
+`<iframe src="`{=html}ISSS602_AY2025-26T1_G1-Group01.jpeg.pdf`" width="100%" height="650">`{=html}
+
+</iframe>
+
+`<iframe src="`{=html}ISSS602_AY2025-26T1_G1-Group01-v1.0`.pdf" width="100%" height="650">`{=html}
+
+</iframe>
