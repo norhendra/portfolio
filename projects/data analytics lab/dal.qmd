@@ -69,7 +69,7 @@ This course transformed my perspective from simply "fitting a line" to building 
 
 </iframe>
 
-# Final Project: **An Explanatory Analysis of Power-Factor Efficiency and Peak Loads in Steel-Plant Operations**
+# Final Project: An Explanatory Analysis of Power-Factor Efficiency and Peak Loads in Steel-Plant Operations
 
 `<iframe src="`{=html}ISSS602_AY2025-26T1_G1-Group01.jpeg.pdf`" width="100%" height="650">`{=html}
 
